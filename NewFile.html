@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script>
+	var a,b;
+	function addition()
+	{
+		a=parseFloat(document.getElementById("a").values);
+		b=parseFloat(document.getElementById("b").values);
+		return(a+b);
+	}
+	let res = addition(a,b)
+        document.getElementById("result").innerHTML = res ;
+   </script>  
+		
+<body>
+	<label>Enter a</label>
+        <input type="number"><br>
+        <label>Enter b</label>
+        <input type="number"><br>
+        <input type="submit">
+
+</body>
+</html>
